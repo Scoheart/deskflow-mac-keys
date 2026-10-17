@@ -1,0 +1,20 @@
+# Runtime data and machine-specific files must stay local.
+state.ini
+installation.json
+*.log
+*.log.*
+*.previous
+*.lnk
+backups/
+*.exe
+*.msi
+*.zip
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env*
+*.local.*
+Thumbs.db
+.DS_Store
