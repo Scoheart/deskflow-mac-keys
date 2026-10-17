@@ -1,0 +1,6 @@
+[
+  { "key": "f13", "command": "editor.action.clipboardCopyAction", "when": "!terminalFocus && isWindows" },
+  { "key": "f13", "command": "workbench.action.terminal.copySelection", "when": "terminalFocus && isWindows" },
+  { "key": "f14", "command": "editor.action.clipboardPasteAction", "when": "!terminalFocus && isWindows" },
+  { "key": "f14", "command": "workbench.action.terminal.paste", "when": "terminalFocus && isWindows" }
+]
